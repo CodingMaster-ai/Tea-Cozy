@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.background {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-spacing {
+    background-color: transparent;
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+main h2 {
+    margin-top: 100px;
+}
+
+main h4 {
+    margin-bottom: 25px;
+}
+
+.items {
+    height: 200px;
+    width: 300px;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 25px;
+}
+
+.item-container h3 {
+    margin-top: 10px;
+}
+
+.row-2 {
+    margin-top: 25px;
+}
+
+.location {
+    display: block;
+    margin: 0 auto;
+}
+
+.heading-space {
+    margin-top: 80px;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.box {
+    background-color: black;
+    opacity: 1;
+    height: 280px;
+    width: 300px;
+}
+
+.separate {
+    margin: 0 40px;
+}
+
+.special {
+    margin: unset;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.location-section {
+    background-color: transparent;
+    position: relative;
+    bottom: 490px;
+}
+
+main {
+    height: 1262px;
+}
+
+.box h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.box p {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.number {
+    text-align: center;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
